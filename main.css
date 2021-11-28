@@ -17,6 +17,7 @@
 
 a:link, a:visited {
 	color: blue;
+	font-style: italic;
 }
 
 a:focus, a:hover {
@@ -28,7 +29,7 @@ a:focus, a:hover {
 }
 
 body {
-margin: 1em;
+
 line-height: 30px;
 }
 
@@ -37,35 +38,36 @@ code {
 }
 
 h1, h2, h3 {
-
+text-align: left;
 }
 
 h1 {
-border: black solid 5px ;
-box-sizing: 50%;
+border-bottom: black solid 3px ;
+margin: 0.5em;
 
 }
 
 h2 {
-
+font-weight: 700;
 }
 
 h3 {
-	
+	font-size: 1.5em;
 }
 
 header {
-	
+	width: fit-content;
 }
 
 main {
-
+	margin: 1em;
 }
 
 p {
 font-size: 20px;
 margin: .5em;
 font-family: 'Outfit', sans-serif;
+font-weight: 150;
 }
 
 #intro {
