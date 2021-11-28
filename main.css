@@ -11,6 +11,10 @@
 	You can modify everything after this point.
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
 a:link, a:visited {
 	color: blue;
 }
@@ -25,11 +29,11 @@ a:focus, a:hover {
 
 body {
 margin: 1em;
-
+line-height: 30px;
 }
 
 code {
-	
+	font-style: italic;
 }
 
 h1, h2, h3 {
@@ -37,6 +41,8 @@ h1, h2, h3 {
 }
 
 h1 {
+border: black solid 5px ;
+box-sizing: 50%;
 
 }
 
@@ -58,12 +64,16 @@ main {
 
 p {
 font-size: 20px;
+margin: .5em;
+font-family: 'Outfit', sans-serif;
 }
 
 #intro {
-
+	border: solid 5px black;
+	margin: .5em;
 }
 
 #how-does-it-work, #influence, #joke {
-
+	border: solid 5px black;
+	margin: .5em;
 }
